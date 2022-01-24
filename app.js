@@ -9,8 +9,8 @@ class app{
         this.height = document.body.clientHeight;
         this.canvas.width = this.width;
         this.canvas.height = this.height;
-        new orbit(this.width, this.height, this.ctx);
 
+        new orbit(this.width, this.height, this.ctx);
     }
 }
 
